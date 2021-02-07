@@ -4,9 +4,9 @@ Creating a hero section for Beautiful Homes page, creating a Call-to-Action for 
 
 **Author and Repo maintainer:** Swapna Sama
 
-**GH repo :** [https://github.com/swappnasama/cpnt260-a4.git](https://github.com/swappnasama/cpnt260-a3.git)
+**GH repo :** [https://github.com/swappnasama/cpnt260-a4.git](https://github.com/swappnasama/cpnt260-a4.git)
 
-**GH Pages site :** [https://swappnasama.github.io/cpnt260-a4/]( https://swappnasama.github.io/cpnt260-a3/)
+**GH Pages site :** [https://swappnasama.github.io/cpnt260-a4/](https://swappnasama.github.io/cpnt260-a4/)
 
 **Discription :** 
 
