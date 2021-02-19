@@ -23,6 +23,8 @@ header{
   display:flex;
   flex-direction: column;
   justify-content: center;
+  width: 90vw;
+  margin: 0 auto;
   
 }
 /* Logo styles */
@@ -40,13 +42,15 @@ header{
 /* Nav styles */
 nav {
   display: none;
-  position: absolute;
   width: 100%;
-  z-index: 2;
 
-  background: rgba(160, 162, 183, 0.9) none repeat scroll 0 0;
- 
-  top:-5px;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+
+  background: rgb(255, 255, 255) none repeat scroll 0 0;
+
   
 }
 /* Navigation flex */
@@ -74,15 +78,54 @@ nav ul li a:hover{
   color:#e9212e;
 }
 
-/*mobile navigation*/
+/* mobile navigation
 #toggle:checked ~ nav {
   display: block;
   transition: all 1s ease-out;
-  /*Trasitioining Nav bar*/
   
   
+  
+} */
+
+/* mobile menu  js version*/
+.mobile-nav{
+  display: block;
+  width: 50px;
+  height: 50px;
+
+  background-image: url("../images/mobile-menu.svg");
+  background-position: center;
+
+  position: absolute;
+  top: 10px;
+  left: 10px;
+
+  cursor: pointer;
 }
 
+.close{
+
+  width: 30px;
+  height: 30px;
+
+  background-image: url("../images/close.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  position: absolute;
+  top: 25px;
+  left: 25px;
+
+  cursor: pointer;
+}
+
+.show{
+  display: block;
+}
+.logo a {
+  display: inline-block;
+}
+ 
 .nav-wrapper label {
   display: block;
   height:72px;
@@ -98,11 +141,11 @@ nav ul li a:hover{
   z-index: 3;
 }
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   left: -100vw;
   
-}
+} */
 /* social links styles */
 .social-links{
   padding: 0 0 1.2rem;
@@ -311,7 +354,7 @@ figure {
   justify-content: center;
   flex-basis: 320px;
 
-  margin: 0 0 1rem;
+  margin: 0 .2rem 1rem;
 
   position: relative;
 
@@ -412,6 +455,70 @@ textarea{
   width:150px;
   margin: 1rem  0 !important;
 }
+/* Accordian styles */
+.accordion {
+  background-color: #eee;
+  color: #444;
+
+  cursor: pointer;
+
+  padding: 18px;
+  width: 100%;
+
+  text-align: left;
+
+  border: none;
+  outline: none;
+  transition: 0.4s;
+
+  position: relative;
+}
+.active, .accordion:hover {
+  background-color: black;
+  color: white;
+}
+/* addiing + and - while expaning and collapsing  */
+.accordion::after {
+  content: "+";
+  color: #e9212e;
+
+  position: absolute;
+  right: 20px;
+  top: 15px;
+
+  font-size: 18px;
+}
+
+
+.active::after{
+  content: "-";
+
+  position: absolute;
+  right: 20px;
+  top: 15px;
+
+  font-size: 18px;
+  
+  
+}
+.accordion-content {
+  display: none;
+  overflow: hidden;
+  padding: 0 18px;
+
+  background-color: white;
+  
+}
+.accordion-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem 0;
+  
+}
+.accordion-wrapper img{
+  width:100%;
+  height:auto;
+}
 /*desktop specific styles*/
 @media screen and (min-width: 600px) {
   /* Logo styles */
@@ -460,6 +567,9 @@ textarea{
 /* Stylels specific for screens larger than 1200px */
 @media (min-width: 1200px) {
   /* Desktop navigation*/
+  .close{
+    display:none;
+  }
   .nav-wrapper {
     flex-wrap: wrap;
     flex-direction: row;
@@ -476,8 +586,11 @@ textarea{
     display: block;
     
   }
-  .visually-hidden {
+  /* .visually-hidden {
     display:none;
+  } */
+  .mobile-nav{
+    display: none;
   }
   .nav-wrapper label {
     display: none;

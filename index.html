@@ -8,11 +8,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">  
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200;1,500&display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.15.2/css/all.css">
   <link rel="stylesheet" href="css/font.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/global.css">
-  
+  <script src="js/global.js"></script>
 </head>
 <body>
   <header>
@@ -20,10 +20,12 @@
       <!-- Logo -->
       <div class="logo"><a href="index.html"><img src="images/logo.png" alt="Beautiful Homes"></a></div>
       <!--Mobile navigation Toggle without js-->
-      <label for="toggle"></label>
-      <input type="checkbox" id="toggle" class="visually-hidden">
+      <!-- <label for="toggle"></label>
+      <input type="checkbox" id="toggle" class="visually-hidden"> -->
+      <div class="mobile-nav"></div>
       <!--Navigation-->
       <nav>
+        <div class="close"></div>
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="#our-creations">Our Creations</a></li>
@@ -197,11 +199,36 @@
 
       </article>
     </section>
+    <!-- Content drawer / Accordian section -->
+    <section>
+      <h2>Covered Industries</h2>
+      <div class="accordion-wrapper">
+        
+        <button class="accordion">Residential</button>
+        <div class="accordion-content">
+          <p>One of our Residential projects</p>
+          <img src="images/nook-living.jpg" alt="Living Area">
+        </div>
+        
+        <button class="accordion">Commercial</button>
+        <div class="accordion-content">
+          <p>One of our Commercial projects</p>
+          <img src="images/commercial.jpg" alt="Restaurant">
+        </div>
+        
+        <button class="accordion">Industries</button>
+        <div class="accordion-content">
+          <p>One of our Industries projects</p>
+          <img src="images/industrial.jpg" alt="">
+        </div> 
+    </div>
+    </section>
     
   </main>
   <!-- Footer -->
   <footer>
     &copy; 2021 All Rights Reserved by Swapna Sama
   </footer>
+  <script src="js/global.js"></script>
 </body>
 </html>

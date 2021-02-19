@@ -35,7 +35,9 @@ Banner section on the page is converted into hero section. This section contains
     - staircase image : Photo by [https://stocksnap.io/author/jplenio](Johannes Plenio) from [StockSnap](https://stocksnap.io).
     - kitchen : Photo by [NeONBRAND](https://stocksnap.io/author/42732) from [StockSnap](https://stocksnap.io).
     - nook-living : Photo by [Huy Nguyen](https://unsplash.com/@huynguyen_pch?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/interior-designer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText). 
-    -  Hardwood-staircase : Photo by [Huy Nguyen](https://unsplash.com/@huynguyen_pch?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/interior-designer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText). 
+    -  Hardwood-staircase : Photo by [Huy Nguyen](https://unsplash.com/@huynguyen_pch?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/interior-designer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText).
+    - commercial : Photo by [Nick Karvounis](https://unsplash.com/@nickkarvounis?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/restaurant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText).
+    - industrial : Photo by [Jonas Jacobsson](https://unsplash.com/@jonasjacobsson?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/restaurant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText).
 
 2. **Code :**
   
